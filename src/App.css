@@ -1,0 +1,40 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#navbar{
+  background-color: black;
+  color: white;
+}
+nav{
+  justify-content: space-between;
+}
+#nav2{
+display: flex;}
+#heading{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+/* .card-section{
+  margin-inline: 50px;
+  display: grid;
+ grid-template-columns: repeat(2, 1fr) ;
+ grid-template-rows: repeat(1, 1fr);
+  gap: 30px;
+} */
+
+.card-container{
+  margin-inline: 70px;
+  display: grid;
+ grid-template-columns: repeat(4, 1fr) ;
+ grid-template-rows: repeat(1, 1fr);
+  gap:30px;
+}
+.img{
+  height: 300px;
+}
